@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPS Coordinates</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Update the coordinates every 5 seconds
+			setInterval(function() {
+				$.getJSON('gps.php', function(data) {
+					$('#latitude').text(data.latitude);
+					$('#longitude').text(data.longitude);
+				});
+			}, 5000);
+		});
+	</script>
+</head>
+<body>
+	<h1>GPS Coordinates</h1>
+	<p>Latitude: <span id="latitude"></span></p>
+	<p>Longitude: <span id="longitude"></span></p>
+</body>
+</html>

@@ -5,8 +5,8 @@
 #include <TinyGPS++.h>
 
 // Define the WiFi credentials
-const char* wifiSSID = "YOUR_WIFI_SSID";
-const char* wifiPassword = "YOUR_WIFI_PASSWORD";
+const char* wifiSSID = "keralavison";
+const char* wifiPassword = "12345678";
 
 // Define the GPS module identifier
 const char* gpsIdentifier = "GPS1";

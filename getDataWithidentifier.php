@@ -1,9 +1,9 @@
 <?php
 // Define the database credentials
-$databaseHost = "YOUR_DATABASE_HOST";
-$databaseUsername = "YOUR_DATABASE_USERNAME";
-$databasePassword = "YOUR_DATABASE_PASSWORD";
-$databaseName = "YOUR_DATABASE_NAME";
+$databaseHost = "host";
+$databaseUsername = "location";
+$databasePassword = "location123";
+$databaseName = "db";
 
 // Create a new MySQL connection
 $database = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName);

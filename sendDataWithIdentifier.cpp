@@ -12,7 +12,7 @@ const char* wifiPassword = "12345678";
 const char* gpsIdentifier = "GPS1";
 
 // Define the server URL
-const char* serverURL = "http://YOUR_SERVER_IP_ADDRESS/insert_location.php";
+const char* serverURL = "http://www.iottraffic.xyz/getDataWithidentifier.php";
 
 // Define the GPS module serial port
 SoftwareSerial gpsSerial(5, 4); // RX, TX
